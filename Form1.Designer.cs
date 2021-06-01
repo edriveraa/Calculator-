@@ -214,6 +214,7 @@ namespace Calculator_
             this.button11.TabIndex = 11;
             this.button11.Text = ".";
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -227,6 +228,7 @@ namespace Calculator_
             this.button12.TabIndex = 12;
             this.button12.Text = "=";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
@@ -240,6 +242,7 @@ namespace Calculator_
             this.button13.TabIndex = 13;
             this.button13.Text = "CE";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
@@ -267,6 +270,7 @@ namespace Calculator_
             this.button15.TabIndex = 15;
             this.button15.Text = "-";
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -280,6 +284,7 @@ namespace Calculator_
             this.button16.TabIndex = 16;
             this.button16.Text = "*";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -293,6 +298,7 @@ namespace Calculator_
             this.button17.TabIndex = 17;
             this.button17.Text = "/";
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 

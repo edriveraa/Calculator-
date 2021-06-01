@@ -152,5 +152,78 @@ namespace Calculator_
             operation = "+";
         }
 
-    }
-}
+        private void button15_Click(object sender, EventArgs e)
+        {
+            ValueOne = Convert.ToDouble(textBox1.Text);
+            textBox1.Text = "0";
+            operation = "-";
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            ValueOne = Convert.ToDouble(textBox1.Text);
+            textBox1.Text = "0";
+            operation = "*";
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            ValueOne = Convert.ToDouble(textBox1.Text);
+            textBox1.Text = "0";
+            operation = "/";
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "0";
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + ".";
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            double ValueTwo;
+            double Total;
+
+            ValueTwo = Convert.ToDouble(textBox1.Text);
+
+            if (operation == "+")
+            {
+                Total = (ValueOne + ValueTwo);
+                textBox1.Text = Convert.ToString(Total);
+                ValueOne = Total;
+            }
+            if (operation == "-")
+            {
+                Total = (ValueOne - ValueTwo);
+                textBox1.Text = Convert.ToString(Total);
+                ValueOne = Total;
+            }
+            if (operation == "*")
+            {
+                Total = (ValueOne * ValueTwo);
+                textBox1.Text = Convert.ToString(Total);
+                ValueOne = Total;
+            }
+            if (operation == "/")
+            {
+                if (ValueTwo == 0)
+                {
+                    textBox1.Text = "Cannot divide by zero";
+                }
+         
+                else
+
+                {
+                    Total = (ValueOne / ValueTwo);
+                    textBox1.Text = Convert.ToString(Total);
+                    ValueOne = Total;
+                }
+            }
+        }
+
+        }
+ }
