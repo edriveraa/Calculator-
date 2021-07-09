@@ -12,14 +12,11 @@ namespace Calculator_
 {
     public partial class Form1 : Form
     {
-        Class1 edcalc = new Class1();
-
-
+        Class1 calc = new Class1();
         public Form1()
         {
             InitializeComponent();
         }
-
         private void Button1_Click(object sender, EventArgs e)
         {
             textBox1.Text = textBox1.Text + "1";
@@ -44,27 +41,22 @@ namespace Calculator_
         {
             textBox1.Text = textBox1.Text + "6";
         }
-
         private void Button7_Click(object sender, EventArgs e)
         {
             textBox1.Text = textBox1.Text + "7";
         }
-
         private void Button8_Click(object sender, EventArgs e)
         {
             textBox1.Text = textBox1.Text + "8";
         }
-
         private void Button9_Click(object sender, EventArgs e)
         {
             textBox1.Text = textBox1.Text + "9";
         }
-
         private void Button0_Click(object sender, EventArgs e)
         {
             textBox1.Text = textBox1.Text + "0";
         }
-
         private void Buttonclear_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
@@ -76,47 +68,58 @@ namespace Calculator_
         }
         private void Buttonplus_Click(object sender, EventArgs e)
         {
-            edcalc.ValueOne = Convert.ToDouble(textBox1);
-            textBox1.Text = "0";
-            edcalc.Operation.Equals("+");
+            calc.valueOne = Convert.ToDouble(textBox1.Text);
+            textBox1.Text = "";
+            calc.operation = "+";
         }
         private void Buttonsub_Click(object sender, EventArgs e)
         {
-            edcalc.ValueOne = Convert.ToDouble(textBox1);
-            textBox1.Text = "0";
-            edcalc.Operation.Equals("-"); 
+            calc.valueOne = Convert.ToDouble(textBox1.Text);
+            textBox1.Text = "";
+            calc.operation = "-";
         }
         private void Buttonmul_Click(object sender, EventArgs e)
         {
-            edcalc.ValueOne = Convert.ToDouble(textBox1);
-            textBox1.Text = "0";
-            edcalc.Operation.Equals("*"); 
+            calc.valueOne = Convert.ToDouble(textBox1.Text);
+            textBox1.Text = "";
+            calc.operation = "*";
         }
         private void Buttondiv_Click(object sender, EventArgs e)
         {
-            edcalc.ValueOne = Convert.ToDouble(textBox1);
-            textBox1.Text = "0";
-            edcalc.Operation.Equals("/"); 
+            calc.valueOne = Convert.ToDouble(textBox1.Text);
+            textBox1.Text = "";
+            calc.operation = "/";
         }
         private void Buttonequals_Click(object sender, EventArgs e)
         {
 
-            if (edcalc.Operation == "+")
+            calc.valueTwo = Convert.ToDouble(textBox1.Text);
+
+
+            if (calc.operation.Equals("+"))
             {
-                edcalc.Add();
+                calc.Add();
             }
-            if (edcalc.Operation == "-")
+            if (calc.operation.Equals("-"))
             {
-                edcalc.Sub();
+                calc.Sub();
             }
-            if (edcalc.Operation == "*")
+            if (calc.operation.Equals("*"))
             {
-                edcalc.Multi();
+                calc.Mul();
             }
-            if (edcalc.Operation == "/")
+            if (calc.operation.Equals("/"))
             {
-                edcalc.Div();
+                calc.Div();
             }
-        }     
+            textBox1.Text = Convert.ToString(calc.total);
+        }
+        private void buttonerase_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text.Length > 0)
+            {
+                textBox1.Text = textBox1.Text.Substring(0, textBox1.Text.Length - 1);
+            }
+        }
     }
 }

@@ -8,61 +8,60 @@ namespace Calculator_
 {
     public class Class1
     {
-        private string operation = "";
-        public string Operation
+        private String Operation;
+        public String operation
         {
-            get { return operation; }
-            set { operation = value; }
+            get { return Operation; }
+            set { Operation = value; }
         }
-
-        private double valueOne;
-        public double ValueOne
+        private double ValueOne;
+        public double valueOne
         {
-            get { return valueOne; }
-            set { valueOne = value; }
+            get { return ValueOne; }
+            set { ValueOne = value; }
         }
-        private double valueTwo;
-        public double ValueTwo
+        private double ValueTwo;
+        public double valueTwo
         {
-            get { return valueTwo; }
-            set { valueTwo = value; }
+            get { return ValueTwo; }
+            set { ValueTwo = value; }
         }
-        private double total;
-        public double Total
+        private double Total;
+        public double total
         {
-            get { return total; }
-            set { total = value; }
+            get { return Total; }
+            set { Total = value; }
         }
+        public string textbox;
         public void Add()
         {
-            Total = (valueOne + valueTwo);
-            ValueTwo = Convert.ToDouble(total);
-            ValueOne = total;
+            Total = (ValueOne + ValueTwo);
+            textbox = Convert.ToString(Total);
+            ValueOne = Total;
         }
         public void Sub()
         {
-            Total = (valueOne - valueTwo);
-            ValueTwo = Convert.ToDouble(total);
-            ValueOne = total;
+            Total = (ValueOne - ValueTwo);
+            textbox = Convert.ToString(Total);
+            ValueOne = Total;
         }
-        public void Multi()
+        public void Mul()
         {
-            Total = (valueOne * valueTwo);
-            ValueTwo = Convert.ToDouble(total);
-            ValueOne = total;
+            Total = (ValueOne * ValueTwo);
+            textbox = Convert.ToString(Total);
+            ValueOne = Total;
         }
         public void Div()
         {
-            if (valueTwo == 0)
+            if (ValueTwo == 0)
             {
-                valueTwo = Convert.ToDouble("Cannot divide by zero");
-
+                textbox = "Cannot divide by zero.";
             }
             else
             {
-                total = (valueOne / valueTwo);
-                valueTwo = Convert.ToDouble(total);
-                valueOne = total;
+                Total = (ValueOne / ValueTwo);
+                textbox = Convert.ToString(Total);
+                ValueOne = Total;
             }
         }
     }

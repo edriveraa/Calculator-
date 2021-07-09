@@ -47,7 +47,7 @@ namespace Calculator_
             this.buttonsub = new System.Windows.Forms.Button();
             this.buttonmulti = new System.Windows.Forms.Button();
             this.buttondiv = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.buttonerase = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -227,6 +227,7 @@ namespace Calculator_
             this.buttonequal.TabIndex = 12;
             this.buttonequal.Text = "=";
             this.buttonequal.UseVisualStyleBackColor = false;
+            this.buttonequal.Click += new System.EventHandler(this.Buttonequals_Click);
             // 
             // buttonclear
             // 
@@ -254,6 +255,7 @@ namespace Calculator_
             this.buttonplus.TabIndex = 14;
             this.buttonplus.Text = "+";
             this.buttonplus.UseVisualStyleBackColor = false;
+            this.buttonplus.Click += new System.EventHandler(this.Buttonplus_Click);
             // 
             // buttonsub
             // 
@@ -267,6 +269,7 @@ namespace Calculator_
             this.buttonsub.TabIndex = 15;
             this.buttonsub.Text = "-";
             this.buttonsub.UseVisualStyleBackColor = false;
+            this.buttonsub.Click += new System.EventHandler(this.Buttonsub_Click);
             // 
             // buttonmulti
             // 
@@ -280,6 +283,7 @@ namespace Calculator_
             this.buttonmulti.TabIndex = 16;
             this.buttonmulti.Text = "*";
             this.buttonmulti.UseVisualStyleBackColor = false;
+            this.buttonmulti.Click += new System.EventHandler(this.Buttonmul_Click);
             // 
             // buttondiv
             // 
@@ -293,19 +297,21 @@ namespace Calculator_
             this.buttondiv.TabIndex = 17;
             this.buttondiv.Text = "/";
             this.buttondiv.UseVisualStyleBackColor = false;
+            this.buttondiv.Click += new System.EventHandler(this.Buttondiv_Click);
             // 
-            // button18
+            // buttonerase
             // 
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(169)))), ((int)(((byte)(7)))));
-            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.Location = new System.Drawing.Point(299, 91);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(72, 51);
-            this.button18.TabIndex = 18;
-            this.button18.Text = "⌫";
-            this.button18.UseVisualStyleBackColor = false;
+            this.buttonerase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(169)))), ((int)(((byte)(7)))));
+            this.buttonerase.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buttonerase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonerase.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonerase.Location = new System.Drawing.Point(299, 91);
+            this.buttonerase.Name = "buttonerase";
+            this.buttonerase.Size = new System.Drawing.Size(72, 51);
+            this.buttonerase.TabIndex = 18;
+            this.buttonerase.Text = "⌫";
+            this.buttonerase.UseVisualStyleBackColor = false;
+            this.buttonerase.Click += new System.EventHandler(this.buttonerase_Click);
             // 
             // Form1
             // 
@@ -313,7 +319,7 @@ namespace Calculator_
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.ClientSize = new System.Drawing.Size(387, 347);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.buttonerase);
             this.Controls.Add(this.buttondiv);
             this.Controls.Add(this.buttonmulti);
             this.Controls.Add(this.buttonsub);
@@ -361,7 +367,7 @@ namespace Calculator_
         private System.Windows.Forms.Button buttonsub;
         private System.Windows.Forms.Button buttonmulti;
         private System.Windows.Forms.Button buttondiv;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button buttonerase;
     }
 }
 
