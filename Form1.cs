@@ -19,43 +19,43 @@ namespace Calculator_
         }
         private void Button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "1";
+            DisplayNumber("1");
         }
         private void Button2_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "2";
+            DisplayNumber("2");
         }
         private void Button3_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "3";
+            DisplayNumber("3");
         }
         private void Button4_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "4";
+            DisplayNumber("4");
         }
         private void Button5_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "5";
+            DisplayNumber("5");
         }
         private void Button6_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "6";
+            DisplayNumber("6");
         }
         private void Button7_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "7";
+            DisplayNumber("7");
         }
         private void Button8_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "8";
+            DisplayNumber("8");
         }
         private void Button9_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "9";
+           DisplayNumber("9");
         }
         private void Button0_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "0";
+            DisplayNumber("0");
         }
         private void Buttonclear_Click(object sender, EventArgs e)
         {
@@ -120,6 +120,11 @@ namespace Calculator_
             {
                 textBox1.Text = textBox1.Text.Substring(0, textBox1.Text.Length - 1);
             }
+        }
+        public void DisplayNumber(String number)
+        {
+            textBox1.Text = textBox1.Text + "";
+            textBox1.Text += number;
         }
     }
 }

@@ -55,6 +55,7 @@ namespace Calculator_
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(148)))), ((int)(((byte)(148)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.textBox1.Location = new System.Drawing.Point(12, 18);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(363, 55);
@@ -63,10 +64,11 @@ namespace Calculator_
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(135)))));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(2)))), ((int)(((byte)(70)))));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
             this.button1.Location = new System.Drawing.Point(14, 91);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(63, 51);
@@ -77,10 +79,11 @@ namespace Calculator_
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(135)))));
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(2)))), ((int)(((byte)(70)))));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.Control;
             this.button2.Location = new System.Drawing.Point(83, 91);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(63, 51);
@@ -91,10 +94,11 @@ namespace Calculator_
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(135)))));
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(2)))), ((int)(((byte)(70)))));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.Control;
             this.button3.Location = new System.Drawing.Point(152, 91);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(63, 51);
@@ -105,10 +109,11 @@ namespace Calculator_
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(135)))));
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(2)))), ((int)(((byte)(70)))));
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.Control;
             this.button4.Location = new System.Drawing.Point(12, 148);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(63, 51);
@@ -119,10 +124,11 @@ namespace Calculator_
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(135)))));
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(2)))), ((int)(((byte)(70)))));
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.Control;
             this.button5.Location = new System.Drawing.Point(81, 148);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(63, 51);
@@ -133,10 +139,11 @@ namespace Calculator_
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(135)))));
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(2)))), ((int)(((byte)(70)))));
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.Control;
             this.button6.Location = new System.Drawing.Point(152, 148);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(63, 51);
@@ -147,10 +154,11 @@ namespace Calculator_
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(135)))));
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(2)))), ((int)(((byte)(70)))));
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.SystemColors.Control;
             this.button7.Location = new System.Drawing.Point(12, 205);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(63, 51);
@@ -161,10 +169,11 @@ namespace Calculator_
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(135)))));
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(2)))), ((int)(((byte)(70)))));
             this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.SystemColors.Control;
             this.button8.Location = new System.Drawing.Point(81, 205);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(63, 51);
@@ -175,10 +184,11 @@ namespace Calculator_
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(135)))));
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(2)))), ((int)(((byte)(70)))));
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.SystemColors.Control;
             this.button9.Location = new System.Drawing.Point(152, 205);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(63, 51);
@@ -189,10 +199,11 @@ namespace Calculator_
             // 
             // button0
             // 
-            this.button0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(135)))));
+            this.button0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(2)))), ((int)(((byte)(70)))));
             this.button0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button0.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button0.ForeColor = System.Drawing.SystemColors.Control;
             this.button0.Location = new System.Drawing.Point(14, 262);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(63, 51);
@@ -203,10 +214,11 @@ namespace Calculator_
             // 
             // buttondot
             // 
-            this.buttondot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(169)))), ((int)(((byte)(7)))));
+            this.buttondot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(2)))), ((int)(((byte)(70)))));
             this.buttondot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttondot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttondot.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttondot.ForeColor = System.Drawing.SystemColors.Control;
             this.buttondot.Location = new System.Drawing.Point(83, 262);
             this.buttondot.Name = "buttondot";
             this.buttondot.Size = new System.Drawing.Size(61, 51);
@@ -217,10 +229,11 @@ namespace Calculator_
             // 
             // buttonequal
             // 
-            this.buttonequal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(169)))), ((int)(((byte)(7)))));
+            this.buttonequal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(14)))), ((int)(((byte)(84)))));
             this.buttonequal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonequal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonequal.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonequal.ForeColor = System.Drawing.Color.Silver;
             this.buttonequal.Location = new System.Drawing.Point(152, 262);
             this.buttonequal.Name = "buttonequal";
             this.buttonequal.Size = new System.Drawing.Size(223, 51);
@@ -231,10 +244,11 @@ namespace Calculator_
             // 
             // buttonclear
             // 
-            this.buttonclear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(169)))), ((int)(((byte)(7)))));
+            this.buttonclear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(14)))), ((int)(((byte)(84)))));
             this.buttonclear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonclear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonclear.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonclear.ForeColor = System.Drawing.Color.Silver;
             this.buttonclear.Location = new System.Drawing.Point(221, 91);
             this.buttonclear.Name = "buttonclear";
             this.buttonclear.Size = new System.Drawing.Size(72, 51);
@@ -245,10 +259,11 @@ namespace Calculator_
             // 
             // buttonplus
             // 
-            this.buttonplus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(169)))), ((int)(((byte)(7)))));
+            this.buttonplus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(14)))), ((int)(((byte)(84)))));
             this.buttonplus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonplus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonplus.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonplus.ForeColor = System.Drawing.Color.Silver;
             this.buttonplus.Location = new System.Drawing.Point(221, 148);
             this.buttonplus.Name = "buttonplus";
             this.buttonplus.Size = new System.Drawing.Size(72, 51);
@@ -259,10 +274,11 @@ namespace Calculator_
             // 
             // buttonsub
             // 
-            this.buttonsub.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(169)))), ((int)(((byte)(7)))));
+            this.buttonsub.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(14)))), ((int)(((byte)(84)))));
             this.buttonsub.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonsub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonsub.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonsub.ForeColor = System.Drawing.Color.Silver;
             this.buttonsub.Location = new System.Drawing.Point(221, 205);
             this.buttonsub.Name = "buttonsub";
             this.buttonsub.Size = new System.Drawing.Size(72, 51);
@@ -273,10 +289,11 @@ namespace Calculator_
             // 
             // buttonmulti
             // 
-            this.buttonmulti.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(169)))), ((int)(((byte)(7)))));
+            this.buttonmulti.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(14)))), ((int)(((byte)(84)))));
             this.buttonmulti.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonmulti.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonmulti.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonmulti.ForeColor = System.Drawing.Color.Silver;
             this.buttonmulti.Location = new System.Drawing.Point(299, 148);
             this.buttonmulti.Name = "buttonmulti";
             this.buttonmulti.Size = new System.Drawing.Size(72, 51);
@@ -287,10 +304,11 @@ namespace Calculator_
             // 
             // buttondiv
             // 
-            this.buttondiv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(169)))), ((int)(((byte)(7)))));
+            this.buttondiv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(14)))), ((int)(((byte)(84)))));
             this.buttondiv.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttondiv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttondiv.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttondiv.ForeColor = System.Drawing.Color.Silver;
             this.buttondiv.Location = new System.Drawing.Point(299, 205);
             this.buttondiv.Name = "buttondiv";
             this.buttondiv.Size = new System.Drawing.Size(72, 51);
@@ -301,10 +319,11 @@ namespace Calculator_
             // 
             // buttonerase
             // 
-            this.buttonerase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(169)))), ((int)(((byte)(7)))));
+            this.buttonerase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(14)))), ((int)(((byte)(84)))));
             this.buttonerase.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonerase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonerase.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonerase.ForeColor = System.Drawing.Color.Silver;
             this.buttonerase.Location = new System.Drawing.Point(299, 91);
             this.buttonerase.Name = "buttonerase";
             this.buttonerase.Size = new System.Drawing.Size(72, 51);
